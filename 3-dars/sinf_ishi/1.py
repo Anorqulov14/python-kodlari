@@ -1,15 +1,8 @@
-son = [1,2,3,4,5]
 
-y = 0
-k = son[0]
-soni = 0
-for i in range(0,len(son)):
-    y += son[i]
-    if k < son[i]:
-        k = son[i]
-    if son[i] %2 == 1:
-        soni +=1
+nechta = int(input("Nechta son kiritasiz: "))
 
-print(f"{k} kattasi")
-print(f"{y} yigindi")
-print(f"{soni} toqlar soni")
+sonlar = []
+for i in range(0, nechta):
+    son = int(input(f"{i+1} sonni kiriting: "))
+    sonlar.insert(0,son) #3, 2, 1
+print(sonlar)
