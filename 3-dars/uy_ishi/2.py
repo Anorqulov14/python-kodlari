@@ -4,7 +4,7 @@ b = 20   #int(input("son kiriting: "))
 sonlar = []
 
 for i in range(a,b+1):
-    if i %2 == 0:
-        sonlar.append(i)
+    if i %2 == 1:
+        sonlar.insert(0,i)
 
 print(sonlar)
