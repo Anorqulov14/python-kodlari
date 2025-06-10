@@ -14,3 +14,8 @@
 # talabalar = ["Otabek","Ulugbek","Xurshid"]
 # file.write("\n".join(talabalar))
 
+# file = open("file.txt","r")
+# print(file.readlines())
+# for i in file.readlines():
+#     print(max(file.readlines()[i]))
+
